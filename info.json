@@ -1,0 +1,86 @@
+{
+    "manufacturer": "edd.boards",
+    "keyboard_name": "wisanteno",
+    "maintainer": "e2dwrd",
+    "bootloader": "rp2040",
+    "diode_direction": "ROW2COL",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+
+        "cols": ["GP0", "GP1", "GP2", "GP3"],
+        "rows": ["GP7", "GP8", "GP9"]
+        
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "0.0.1",
+        "pid": "0x0002",
+        "vid": "0xEDD8"
+    },
+
+
+    "layouts": {
+        "LAYOUT_2x4_2": {
+            "layout": 
+            [
+                {    "matrix": [0,0],   "x": 2,    "y": 0.25  },
+                {    "matrix": [0,1],   "x": 3,    "y": 0     },
+                {    "matrix": [0,2],   "x": 4,    "y": 0.25  },
+                {    "matrix": [0,3],   "x": 5,    "y": 0.5   },
+                {    "matrix": [1,1],   "x": 3,    "y": 1     },
+                {    "matrix": [1,0],   "x": 2,    "y": 1.25  },
+                {    "matrix": [1,2],   "x": 4,    "y": 1.25  },
+                {    "matrix": [1,3],   "x": 5,    "y": 1.5   },
+                {    "matrix": [2,1],   "x": 3,    "y": 2     },
+                {    "matrix": [2,0],   "x": 2,    "y": 2.25  }
+            ]
+        }
+    }
+}
+
+  /* {
+        "encoder": {
+          "rotary": [
+            { "pin_a": "GP7", "pin_b": "GP6", "resolution": 4 }
+            
+          ]
+        }
+      }
+
+    
+
+
+
+
+ /*
+    "layouts": {
+        "LAYOUT_2x4_2": {
+            "layout": [
+                { "matrix": [0, 0], "x": 0, "y": 0 },
+                { "matrix": [0, 1], "x": 1, "y": 0 },
+                { "matrix": [0, 2], "x": 2, "y": 0 },
+                { "matrix": [0, 3], "x": 3, "y": 0 },
+                { "matrix": [1, 0], "x": 0, "y": 1 },
+                { "matrix": [1, 1], "x": 1, "y": 1 },
+                { "matrix": [1, 2], "x": 2, "y": 1 },
+                { "matrix": [1, 3], "x": 3, "y": 1 },
+                { "matrix": [2, 0], "x": 0, "y": 2 },
+                { "matrix": [2, 1], "x": 1, "y": 2 },
+                { "matrix": [2, 2], "x": 2, "y": 2 },
+                { "matrix": [2, 3], "x": 3, "y": 2 },
+                { "matrix": [3, 0], "x": 0, "y": 3 },
+                { "matrix": [3, 1], "x": 1, "y": 3 },
+                { "matrix": [3, 2], "x": 2, "y": 3 },
+                { "matrix": [3, 3], "x": 3, "y": 3 }
+            ]
+        }
+    }
+} */
