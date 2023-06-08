@@ -1,4 +1,6 @@
 # This file intentionally left blank
-VIA_ENABLE  = yes
-VIAL_ENABLE = yes
-ENCODER_MAP_ENABLE = yes
+ENCODER_ENABLE = yes
+BOOTLOADER = rp2040
+EXTRAKEY_ENABLE = yes
+MOUSEKEY_ENABLE = yes
+NKRO_ENABLE = yes
